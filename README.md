@@ -1,6 +1,6 @@
 # Dre app
 
-[![run linter](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml)
+[![run linter](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml) [![run tests](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/test.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/test.yml)
 
 ### About
 
