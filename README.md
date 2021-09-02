@@ -1,5 +1,7 @@
 # Dre app
 
+[![run linter](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml)
+
 ### About
 
 
