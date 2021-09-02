@@ -79,8 +79,6 @@ class Wants_Test(GraphQLTestCase):
             self.assertEquals(wants['want'], wants_list_qs[i].want)
             self.assertEquals(wants['manifestedOn'], wants_list_qs[i].manifested_on.isoformat())
 
-
-
     def test_update_mutation_correct(self):
         """
         Add an object. Call an update with 2 (or more) fields updated.
@@ -113,5 +111,3 @@ class Wants_Test(GraphQLTestCase):
         updated_wants_data = parsed_response['data']['updateWants']['wants']
         self.assertEquals(updated_wants_data['want'], wants_dict['want'])
         self.assertEquals(updated_wants_data['manifestedOn'], wants_dict['manifested_on'])
-
-
