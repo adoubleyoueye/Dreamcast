@@ -1,4 +1,4 @@
-# Dre app
+# Dreamcast
 
 [![run linter](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/lint.yml) [![run tests](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/test.yml/badge.svg)](https://github.com/adoubleyoueye/Dreamcast/actions/workflows/test.yml)
 
@@ -24,22 +24,6 @@ export POSTGRES_PASSWORD=<password-to-database>
 $ make install
 $ make migrate
 $ make run
-```
-
-### Run the app inside a Docker container
-
-1. Build the docker container and get it up and running.
-
-```
-$ docker-compose build
-$ docker-compose up
-```
-
-2. Setup database tables by running migrations.
-
-```
-$ docker-compose exec web python manage.py makemigrations
-$ docker-compose exec web python manage.py migrate
 ```
 
 ### Make API calls against the server
